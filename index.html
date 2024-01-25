@@ -8,19 +8,24 @@
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Imported google fonts - (Font Manrope) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/6feaa9653e.js" crossorigin="anonymous"></script>
 
     <style>
-
+       .font-manrope{
+        font-family: 'Manrope', sans-serif;
+       }
     </style>
 
 
 </head>
 
+<!-- navbar section starts here -->
 <body class="font-manrope">
     <header class="w-full">
         <nav class="container">
@@ -67,6 +72,9 @@
                 </div>
             </div>
         </nav>
+        <!-- navbar section ends here -->
+
+        <!-- Slider section starts here -->
         <section>
             <div>
                 <div>
@@ -95,7 +103,7 @@
                     </div>
                     <div>
                         <div
-                            class="bg-[#131318] max-w-xl rounded-xl justify-center text-center text-gray-400 pt-2 -top-10">
+                            class="bg-[#131318] max-w-xl grid mx-auto w-96 text-sm rounded-xl justify-center text-center text-gray-400 pt-2 -top-10">
                             <h2 class="text-xl font-bold">Meet all the heroes from the field</h2>
                             <p class="mt-6 text-gray-400">The type of hockey equipment needed differs if you’re playing
                                 as a goalie.
@@ -107,13 +115,16 @@
                 </div>
 
             </div>
-
         </section>
+        <!-- Slider section ends here -->
     </header>
     <main>
+
+        <!-- Professional Hockey Section starts here -->
+
         <section class="container grid lg:grid-1 ">
             <div class="professional-container mt-20 text-center">
-                <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
+                <h2 class="text-3xl font-extrabold">Professional Hockeys Club</h2>
                 <p class="mt-10 text-gray-600">Hockey slogans can motivate a fan base, inspire a player, or charge up a
                     team.
                     <br>
@@ -121,7 +132,9 @@
                     <br>
                     Hockey slogans can motivate a fan base, inspire a player, or charge up a team.
                 </p>
-
+            </section>
+            <!-- Professional Hockey Section ends here -->
+                <section>
                 <div class="progress-container flex justify-center mt-20">
                     <div class="">
                         <div class="radial-progress text-red-400" style="--value:90;" role="progressbar"><span
@@ -168,9 +181,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- Professional Hockey Section ends here -->
+
+                <!-- Program section starts here -->
+
                 <div class="">
                     <div class="text-center mt-20">
-                        <h2 class="text-4xl font-extrabold">Program Sections</h2>
+                        <h2 class="text-3xl font-extrabold">Program Sections</h2>
                         <p class="mt-10 text-gray-600">Ice hockey (or simply hockey) is a team sport played on ice
                             skates,
                             usually on an ice
@@ -178,7 +195,7 @@
                             skating rink with lines and markings specific to the sport.
                         </p>
                     </div>
-                    <div class="progressbar">
+                    <div class="program setion">
                         <div class="flex space-x-4 mt-20 justify-center">
                             <div class="card w-[570px] image-full">
                                 <figure><img src="Images/2.png" alt="" /></figure>
@@ -238,10 +255,13 @@
                 </div>
             </div>
         </section>
+        <!-- Program section ends here -->
+
+        <!-- Products section starts here -->
 
         <section class="container mt-20 ">
             <div class="text-center">
-                <h2 class="text-4xl font-extrabold">Our New Products</h2>
+                <h2 class="text-3xl font-extrabold">Our New Products</h2>
                 <p class="mt-10 text-gray-600">The project will see the development of a 6000sqm synthetic grass pitch
                     <br>
                     suitable for hockey, netball, five-a-side soccer and touch football with
@@ -359,12 +379,14 @@
                     </div>
                 </div>
             </div>
-
         </section>
+       <!-- Products section ends  here -->
+
+       <!-- Clients Question section starts  here -->
 
         <section class="container">
             <div class="client mt-20 text-center">
-                <h2 class="text-4xl font-extrabold">Clients Question</h2>
+                <h2 class="text-3xl font-extrabold">Clients Question</h2>
                 <p class="mt-10 text-gray-600">Hockey has been a constant companion in my life, wherever
                     <br>
                     I was around the globe. Starting of in my home town
@@ -379,7 +401,10 @@
                 </p>
             </div>
         </section>
+       <!-- Clients Question section ends  here -->
 
+
+        <!-- Accordion section ends  here -->
         <section class="mt-20">
             <div class="container mx-auto">
                 <div class="accordion-container flex">
@@ -458,10 +483,12 @@
                     </div>
                 </div>
         </section>
-
+        <!-- Accordion section ends  here -->
+        
+        <!-- Get in touch section starts  here -->
         <section class="">
             <div class="text-center mt-20">
-                <h2 class="text-4xl font-extrabold">Get In Touch</h2>
+                <h2 class="text-3xl font-extrabold">Get In Touch</h2>
                 <p class="mt-4 text-gray-600">An effective Contact Us page typically starts with a catchy header.
                     This draws
                     <br>
@@ -477,47 +504,55 @@
                         <p class="text-gray-400 pt-6">Phone Number :</p>
                         <p class="pt-4 font-bold">(+62) 123-321-543</p>
                     </div>
-                    <div class="card-1 bg-[#FDDD5F1A] rounded-lg w-[374px] h-[210px] pt-10 pl-10 ml-10">
+                    <div class="card-2 bg-[#FDDD5F1A] rounded-lg w-[374px] h-[210px] pt-10 pl-10 ml-10">
                         <img src="Images/Group 1171275318.png" alt="">
                         <p class="text-gray-400 pt-6">Email :</p>
                         <p class="pt-4 font-bold">hockeys@support.com</p>
                     </div>
-                    <div class="card-1 bg-[#629CF31A] rounded-lg w-[374px] h-[210px] pt-10 pl-10 ml-10">
+                    <div class="card-3 bg-[#629CF31A] rounded-lg w-[374px] h-[210px] pt-10 pl-10 ml-10">
                         <img src="Images/Group 1171275321.png" alt="">
                         <p class="text-gray-400 pt-6">Location :</p>
                         <p class="pt-4 font-bold">152/1 Mohakhali Wireless Gate</p>
                     </div>
                 </div>
-                <div class="input-section ">
-                    <div class="input-col-1 ml-10 mt-10 space-y-4">
-                        <h2 class="text-xl font-bold">Your Name</h2>
-                        <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+        </section>
+<!-- Get in touch section ends  here -->
+
+<!-- input section starts here  -->
+        <section class="grid w-80 mx-auto">
+            <div class="input-section ">
+                <div class="input-col-1  mt-10 space-y-4">
+                    <h2 class="text-xl font-bold">Your Name</h2>
+                    <input type="text" placeholder="Enter your name" class="input input-bordered w-full max-w-xs" />
+                    <br>
+                    <h2 class="text-xl font-bold">Subject</h2>
+                    <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
+                </div>
+                <div class="input-col-2">
+                    <div class="input-col-1  mt-10 space-y-4">
+                        <h2 class="text-xl font-bold">Your Email</h2>
+                        <input type="email" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" />
                         <br>
-                        <h2 class="text-xl font-bold">Subject</h2>
-                        <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
-                    </div>
-                    <div class="input-col-2">
-                        <div class="input-col-1 ml-10 mt-10 space-y-4">
-                            <h2 class="text-xl font-bold">Your Email</h2>
-                            <input type="email" placeholder="Enter your email" class="input input-bordered w-full max-w-xs" />
-                            <br>
-                            <h2 class="text-xl font-bold mb-10">Your Number</h2> 
-                            <input type="number" placeholder="Enter your number" class="input input-bordered w-full max-w-xs"/>
-                          
-                    </div>
+                        <h2 class="text-xl font-bold mb-10">Your Number</h2> 
+                        <input type="number" placeholder="Enter your number" class="input input-bordered w-full max-w-xs"/>
+                      
                 </div>
             </div>
-            <div class="input-c0l-3 ml-10 mt-5">
-                <h2 class="text-xl font-bold">Message</h2>
-                <br>
-                <input  type="text" placeholder="Type here" class="input text-left input-bordered w-[470px] h-[300px]" />
-            </div>
-            <button class="w-[470px] rounded-md bg-red-600 text-white text-xl font-semibold ml-10 mt-5 p-2">Send Message</button>
-        </section>
+        </div>
+        <div class="input-c0l-3  mt-5 grid ">
+            <h2 class="text-xl font-bold">Message</h2>
+            <br>
+            <input  type="text" placeholder="Type here" class="input text-left input-bordered w-[470px] h-[300px]" />
+            <div><button class="w-[470px] rounded-md bg-red-600 text-white text-xl font-semibold  mt-5 p-2">Send Message</button>
+            </section></div>
+        </div>
+        
+        <!-- input section ends here -->
 
+        <!-- Social Media section starts here -->
         <section>
-            <div class="text-center mx-auto mt-20 bg-[#13131808] w-[1170px] h-[150px] rounded-md">
-                <h2 class="text-4xl font-extrabold pt-6">Social Media</h2>
+            <div class="text-center grid w-auto mx-auto mt-20 bg-[#13131808] w-[1170px] h-[150px] rounded-md">
+                <h2 class="text-3xl font-extrabold pt-6">Social Media</h2>
                 <div class="space-x-5 mt-5">
                     <i class="fa-brands fa-facebook"></i>
                     <i class="fa-brands fa-instagram"></i>
@@ -525,12 +560,50 @@
                     <i class="fa-brands fa-github"></i>
                 </div>
             </div>
-            
+            <!-- Social Media section ends here -->
         </section>
     </main>
-    <footer>
+    <!-- footer sectiion starts here -->
+            <footer class="footer p-10 grid-cols-1  lg:grid-cols-4  bg-neutral text-neutral-content mt-24 ">
+                <nav>
+                    <h2 class="text-xl font-extrabold text-white">Get In Touch</h2>
+                    <p class="mt-4 text-white">An effective Contact Us page typically starts with a catchy header.</p>
+                    <div class="">
+                        <div class="flex gap-4 items-center ">
+                            <i class="fa-regular fa-envelope text-red-400"></i>
+                            <p class="text-white">hockeys@support.com</p>
+                        </div>
+                        <div class="flex gap-4 mt-4 items-center">
+                            <i class="fa-solid fa-phone text-red-400"></i>
+                            <p class="text-white">(+62) 123-321-543</p>
+                        </div>
+                    </div>
+                </nav>
+                <nav>
+                  <h6 class="footer-title">Company</h6> 
+                  <a class="link link-hover">About Us</a>
+                  <a class="link link-hover">Leadership</a>
+                  <a class="link link-hover">Careers</a>
+                  <a class="link link-hover">Legal Notice</a>
+                </nav> 
+                <nav>
+                  <h6 class="footer-title">Support</h6> 
+                  <a class="link link-hover">Help Center</a>
+                  <a class="link link-hover">FAQ</a>
+                  <a class="link link-hover">Ticket Support</a>
+                  <a class="link link-hover">Contact Us</a>
+                </nav> 
+                <nav>
+                  <h6 class="footer-title">Survices</h6> 
+                  <a class="link link-hover">Academy</a>
+                  <a class="link link-hover">Private Lessons</a>
+                  <a class="link link-hover">Hockeys for kids</a>
+                  <a class="link link-hover">Hockeys for adults</a>
+                  <a class="link link-hover">Privacy Policy</a>
+                </nav>
+              </footer>
 
-    </footer>
+              <!-- footer sectiion ends here -->
 </body>
 
 </html>
